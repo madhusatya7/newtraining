@@ -1,0 +1,12 @@
+    1 pwd 2 mkdir practice 3 pwd 4 ls 5 cd practice 6 cat file1.txt 7 cat>file1.txt 8 ls 9 cat file1.txt 10 mkdir sub_folder1 11 mv 
+   file.txt sub_folder1 12 rm file1.txt 13 ls 14 cd linux 15 ls 16 locate first.txt 17 rm second.txt 18 locate second.txt 19 ls 20 
+   touch first.txt 21 ls 22 rm first.txt 23 locate first.txt 24 ls 25 cd madhu 26 cd .. 27 locate first.txt 28 cd linux 29 ls 30 
+   touch file1.txt 31 ld 32 ls 33 mkdir windows 34 ls 35 cd .. 36 ls 37 ln -s linux windows 38 ls 39 cd linux 40 cd windows 41 ls 42 
+   cd .. 43 ls 44 cat file1.txt 45 madhu@Admin:/home$ ls -l 46 total 4 47 drwxr-xr-x 17 madhu madhu 4096 Aug 21 11:28 madhu 48 
+   madhu@Admin:/home$ ^C 49 ls 50 nano file1.txt 51 grep a "file1.txt" 52 fgrep a "file1.txt" 53 ls -R 54 uname 55 ps 56 man 57 man 
+   <file1.txt> 58 man file1.txt 59 echo " 60 ffgf" 61 echo "Salman" 62 whoami 63 touch second.txt 64 ls 65 cat>>second.txt 66 cat 
+   second.txt 67 cat>>third.txt 68 ls 69 cd git 70 git init 71 cd .. 72 apt install git 73 su root 74 cd git 75 su 76 mkdir git_hub 
+   77 pwd 78 cd git_hub 79 git 80 git init 81 git config --global user.email "madhusatyadevarajupaila@gmail.com" 82 git config 
+   --global user.name "madhusatya7" 83 touch First 84 ls 85 nano First 86 git remote add origin 
+   https://github.com/madhusatya7/newtraining.git 87 git branch -m main 88 git branch -m master 89 git commit -m "add" 90 git add . 
+   91 git commit -m "message" 92 git push 93 git push -u origin master 94 history 95 history>nano commands 96 history|nano command
